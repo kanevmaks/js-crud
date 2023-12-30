@@ -21,5 +21,31 @@ router.get('/', function (req, res) {
 
 // ================================================================
 
+class User {
+  #list = []
+
+  constructor(email, login, password) {
+    this.email = email
+    this.login = login
+    this.password = password
+  }
+
+  static create = (user) => {
+    this.тутlist.push(user)
+  }
+
+  static getList
+}
+
+// ================================================================
+
+router.post('/user-create', function (req, res) {
+  console.log(req.body)
+  res.render('user-create', {
+    style: 'user-create',
+  })
+})
 // Підключаємо роутер до бек-енду
 module.exports = router
+
+// ================================================================
