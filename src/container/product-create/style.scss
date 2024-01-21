@@ -11,7 +11,7 @@ main {
 .title {
     font-size: 30px;
     font-weight: bold;
-    padding: s.space(5); 
+    padding: s.space(3); 
     color: blue;
     text-align: center;
 }
@@ -76,5 +76,14 @@ main {
         border-radius: 10px;
         background-color: rgb(104, 104, 254);
         color: white;
+        min-width: 350px;
     }
+}
+
+.button-red {
+    text-decoration: none; 
+    background-color: rgb(245, 87, 87);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
