@@ -1,45 +1,37 @@
-main {
+section {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  max-width: 1000px;
-  width: 100%;
+  align-items: center;
+  padding-top: 60px;
 }
 
-.form {
+.alert {
   display: flex;
-  flex-direction: column;
+  width: 800px;
+  border: 1px solid #ddd;
   padding: 16px;
   gap: 32px;
-}
-.form__title {
-  font-size: 20px;
-  font-weight: bold;
-  padding-bottom: 12px;
-}
-.form__content {
-  display: flex;
-  flex-direction: row;
+  border-radius: 20px;
   justify-content: space-between;
-  gap: 24px;
-  padding: 24px;
-  border: 1px solid #ddd;
-  border-radius: 24px;
-  background: rgb(248, 246, 246);
-  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
 }
-.form__button {
+.alert__button {
+  max-height: 36px;
   border: 1px solid #ddd;
-  padding: 8px;
-  border-radius: 10px;
-  background-color: rgb(104, 104, 254);
-  font-size: 18px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 20px;
   color: white;
   text-decoration: none;
-  width: 300px;
+}
+.alert__info {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  gap: 8px;
+}
+.alert__info h1 {
+  font-weight: 900;
 }
 
 /*# sourceMappingURL=style.css.map */
